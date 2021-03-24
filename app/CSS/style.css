@@ -1,0 +1,297 @@
+            html,
+        body {
+            height: 100%;
+            margin: 0;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.8em;
+            color: #000;
+        }
+        
+        .profile-pic {
+            height: 10rem;
+            width: 10rem;
+            border-radius: 5rem;
+            margin: 2rem;
+        }
+        
+        .img1,
+        .img2,
+        .img3,
+        .img4 {
+            position: relative;
+            opacity: 0.90;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 30%;
+        }
+        
+        .learn-more {
+            margin-top: 30px;
+            color: ghostwhite;
+            text-shadow: 1px 1px black;
+        }
+        /* ABOUT ME SECTION */
+        
+        #About .first::first-letter {
+            font-size: 600%;
+            color: #8A2BE2;
+        }
+        
+        #About p {
+            margin: auto;
+            width: 30em;
+            line-height: 1.5em;
+            font-size: 20px;
+        }
+        
+        .article-title {
+            font-family: 'Black Han Sans', sans-serif;
+        }
+        
+        .paragraph-well {
+            margin-top: 40px;
+        }
+        
+        .section {
+            text-align: center;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            width: 100%;
+        }
+        
+        p {
+            margin-left: 16px;
+        }
+        
+        .details {
+            color: #ECEFF1;
+            font-family: "Do Hyeon";
+            font-size: 22px;
+            text-shadow: 1px 1px black;
+        }
+        
+        .section-light {
+            background-color: #f4f4f4;
+            color: #666;
+            padding: inherit;
+        }
+        
+        .section-dark {
+            background-color: #282e34;
+            color: #666;
+            overflow: hidden;
+        }
+        
+        .img1 {
+            background-image: url("../images/uncle.jpg");
+            height: 100%;
+        }
+        
+        .img2 {
+            background-image: url("../images/know.jpg");
+            height: 700px;
+        }
+        
+        .img3 {
+            background-image: url("../images/coding.jpg");
+            height: 400px;
+        }
+        
+        .img4 {
+            background-image: url("../images/insur.jpg");
+            height: 400px;
+        }
+        
+        .section-title {
+            text-shadow: 1px 1px black;
+            color: aliceblue;
+            font-size: 2rem;
+        }
+        
+        .knowledge {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+            grid-gap: 0.25rem;
+        }
+        
+        .knowledge-header {
+            text-decoration: underline;
+            text-shadow: 1px 1px black;
+        }
+        
+        .front-end p {
+            font-size: 25px;
+            text-shadow: 1px 1px black;
+        }
+        
+        .back-end p {
+            font-size: 25px;
+            text-shadow: 1px 1px black;
+        }
+        
+        .front-end {
+            grid-column-start: 0;
+            grid-column-end: 2;
+            display: grid;
+            grid-auto-rows: auto;
+            grid-gap: 0.25rem;
+            background-image: linear-gradient(90deg, #af9cb5, black, black, #af9cb5);
+            transform: skewX(27deg);
+            /* margin: -14px; */
+            margin-right: -20px;
+            margin-top: -13px;
+            /* padding-right: 6px; */
+            margin-bottom: -14px;
+            margin-left: -110px;
+        }
+        
+        .front-end-card {
+            transform: skewX(-25deg);
+        }
+        
+        .back-end {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            display: grid;
+            grid-auto-rows: auto;
+            grid-gap: 0.25rem;
+            background-image: linear-gradient(90deg, brown, black, black, brown);
+            transform: skewX;
+            transform: skewX(24deg);
+            margin-right: -91px;
+            /* padding-right: 28px; */
+            margin-top: -13px;
+            margin-bottom: -14px;
+        }
+        
+        .back-end-card {
+            /* background-color: brown; */
+            tranform: skewX(20deg);
+            transform: skewX(-22deg);
+            /* margin: -4px; */
+            margin-right: 50px;
+            /* padding-right: 2px; */
+        }
+        
+        .projects {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            grid-gap: 0.25rem;
+        }
+        
+        .odd-card {
+            background-image: linear-gradient(90deg, #af9cb5, black, black, #af9cb5);
+            border: 2px solid #546E7A;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            color: white;
+            border: 2px solid white;
+            border-radius: 0.3rem;
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            grid-template-rows: 1fr;
+            position: relative;
+            overflow: hidden;
+            padding: inherit;
+        }
+        
+        .even-card {
+            background-image: linear-gradient(90deg, #af9cb5, black, black, #af9cb5);
+            grid-column-start: 1;
+            grid-column-end: 4;
+            color: white;
+            border: 2px solid white;
+            border-radius: 0.3rem;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr;
+            position: relative;
+            overflow: hidden;
+            padding: inherit;
+        }
+        
+        .project-card-title .project-card .projects {
+            border-right: 0.05rem solid;
+            transform: skewX(-36deg);
+            z-index: 10;
+        }
+        
+        .projects .project-card .project-card-title {
+            transform: skewX(21deg);
+            padding: 0.5rem;
+        }
+        
+        .project-card-title {
+            transform: skewX(-22deg);
+            background-color: bisque;
+            background-image: linear-gradient(90deg, brown, black, black, brown);
+        }
+        
+        .thumbnail {
+            transform: skewX(21deg);
+        }
+        
+        .text {
+            position: absolute;
+            top: 30%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform: uppercase
+        }
+        
+        .Contact {
+            position: absolute;
+            top: 30%;
+            width: 100%;
+            text-align: left;
+            margin: 20px;
+            color: #000;
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform: uppercase
+        }
+        
+        .text .border {
+            color: black;
+            padding: 20px;
+        }
+
+
+        .footer{
+            background: #333;
+            padding: 1rem;
+            text-align: center;
+            font-family: 'Kosugi Maru',
+                sans-serif;
+            background-color: #252529;
+            margin: 0;
+            color: #ffffff;
+            line-height: 1.6;
+            display: block;
+        }
+        
+        @media(max-width:568px) {
+            .img1,
+            .img2,
+            .img3,
+            .img4 {
+                background-attachment: scroll;
+            }
+            .background .border {
+                text-align: center;
+            }
+            #About p {
+                width: 20em;
+            }

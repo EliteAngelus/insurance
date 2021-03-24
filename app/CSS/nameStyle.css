@@ -1,0 +1,87 @@
+.nameAnimate {
+    /* Change FONT?? */
+    font: 600 4em/1 "Do Hyeon";
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+    /* Clip Background Image */
+    background: url("../images/sky.jpg") repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Animate Background Image */
+    /* -webkit-text-fill-color: transparent; */
+    -webkit-animation: aitf 80s linear infinite;
+    /* Activate hardware acceleration for smoother animations */
+    text-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+.name-title {
+    font-size: 3rem;
+    color: ghostwhite;
+    text-shadow: 1px 1px black;
+}
+
+.foo3 {
+    color: ghostwhite;
+    text-shadow: 1px 1px black;
+}
+
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.nameScroll {
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    display: inline-block;
+    border: 4px double rgba(255, 255, 255, .25);
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    width: 40em;
+    margin: 0 0 0 -20em;
+}
+
+.fas {
+    color: white;
+}
+
+.arrow {
+    text-align: center;
+    margin: 1% 0;
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}

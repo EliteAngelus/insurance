@@ -1,0 +1,84 @@
+.work-image {
+    width: 200px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.list {
+    font-family: 'Acme', sans-serif;
+}
+
+.work-image:hover {
+    box-shadow: 10px 10px 5px rgb(41, 26, 177);
+}
+
+#sub {
+    padding-left: 75px;
+    padding-right: 45px;
+}
+
+.userHint {
+    font-family: 'Skranji', cursive;
+    color: red
+}
+
+#Complete,
+{
+    font-family: 'Skranji', cursive;
+    color: steelblue;
+}
+
+#hang,
+.row {
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.messageToUser,
+#nav-name {
+    font-family: 'Righteous', cursive;
+    font-size: 30px
+}
+
+#skip,
+#next {
+    background: red;
+}
+
+.see {
+    margin: 10px;
+}
+
+.nav-wrapper {
+    background-color: #000;
+    background-color: transparent;
+}
+
+p {
+    font-size: 18px;
+}
+
+span,
+p,
+h4 {
+    /* font-family: 'Slabo 20px', serif; */
+}
+
+h5 {
+    font-family: 'Skranji', cursive;
+    color: white
+}
+
+.reachMe {
+    padding: 50px 80px;
+    width: 100%;
+}
+
+i {
+    font-size: 50px;
+    padding: 10px;
+}
+
