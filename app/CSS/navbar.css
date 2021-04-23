@@ -12,6 +12,7 @@ body {
     width: 100%;
     background-color: #f3ecec;
     position: relative;
+    box-shadow: 2px 2px grey;
 }
 
 .nav>.nav-header {
